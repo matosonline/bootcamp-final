@@ -1,6 +1,8 @@
 <?php
 
     define('__ROOT__', dirname(__FILE__));
+    session_start();
+    
 
     //HEAD
     require_once (__ROOT__."/templates/head.php");
