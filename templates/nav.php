@@ -17,10 +17,17 @@
           <li class="nav-item">
             <a class="nav-link" href="/?page=contact">Contact</a>
           </li>
-                    <li class="nav-item">
-            <a class="nav-link" href="/?page=logout">Log Out</a>
-          </li>
         </ul>
+        
+            <!-- Button trigger modal -->
+            <span id="loggedUserEmail"></span>
+          <button id="loginModalButton"  type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+            Login
+          </button>
+          <button id="logoutButton"  type="button" class="btn btn-primary" data-target="#logoutButton">
+            Logout
+          </button>
+
       </div>
     </nav>
 </div>
