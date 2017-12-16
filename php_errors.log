@@ -115,3 +115,436 @@
 [15-Nov-2017 01:45:15 UTC] PHP Stack trace:
 [15-Nov-2017 01:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
 [15-Nov-2017 01:45:15 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[17-Nov-2017 00:57:59 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:58:00 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:58:00 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:58:00 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:29 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:39 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:40 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:41 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:41 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:41 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:41 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:41 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:42 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[17-Nov-2017 00:59:42 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/controllers/login.php on line 55
+[02-Dec-2017 04:04:51 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[02-Dec-2017 04:04:51 UTC] PHP Stack trace:
+[02-Dec-2017 04:04:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/signup.php:0
+[02-Dec-2017 04:04:51 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[02-Dec-2017 04:04:51 UTC] PHP Stack trace:
+[02-Dec-2017 04:04:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/signup.php:0
+[02-Dec-2017 04:08:33 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[02-Dec-2017 04:08:33 UTC] PHP Stack trace:
+[02-Dec-2017 04:08:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/signup.php:0
+[02-Dec-2017 04:08:33 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[02-Dec-2017 04:08:33 UTC] PHP Stack trace:
+[02-Dec-2017 04:08:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/signup.php:0
+[02-Dec-2017 16:48:06 UTC] PHP Warning:  require_once(__ROOT__db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/controllers/User_signup.php on line 3
+[02-Dec-2017 16:48:06 UTC] PHP Stack trace:
+[02-Dec-2017 16:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/User_signup.php:0
+[02-Dec-2017 16:48:06 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/controllers/User_signup.php on line 3
+[02-Dec-2017 16:48:06 UTC] PHP Stack trace:
+[02-Dec-2017 16:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/User_signup.php:0
+[02-Dec-2017 23:00:36 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[02-Dec-2017 23:00:36 UTC] PHP Stack trace:
+[02-Dec-2017 23:00:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/signup.php:0
+[02-Dec-2017 23:00:36 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[02-Dec-2017 23:00:36 UTC] PHP Stack trace:
+[02-Dec-2017 23:00:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/signup.php:0
+[02-Dec-2017 23:01:12 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/signup.php on line 2
+[02-Dec-2017 23:01:12 UTC] PHP Stack trace:
+[02-Dec-2017 23:01:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/signup.php:0
+[02-Dec-2017 23:01:12 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/signup.php on line 2
+[02-Dec-2017 23:01:12 UTC] PHP Stack trace:
+[02-Dec-2017 23:01:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/signup.php:0
+[05-Dec-2017 16:12:35 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[05-Dec-2017 16:12:35 UTC] PHP Stack trace:
+[05-Dec-2017 16:12:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[05-Dec-2017 16:12:35 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[05-Dec-2017 16:13:44 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 16:13:44 UTC] PHP Stack trace:
+[05-Dec-2017 16:13:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 16:13:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 16:13:44 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 16:13:44 UTC] PHP Stack trace:
+[05-Dec-2017 16:13:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 16:13:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:32:48 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:32:48 UTC] PHP Stack trace:
+[05-Dec-2017 17:32:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:32:48 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:32:48 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:32:48 UTC] PHP Stack trace:
+[05-Dec-2017 17:32:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:32:48 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:34:46 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:34:46 UTC] PHP Stack trace:
+[05-Dec-2017 17:34:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:34:46 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:34:46 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:34:46 UTC] PHP Stack trace:
+[05-Dec-2017 17:34:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:34:46 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:40:37 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:40:37 UTC] PHP Stack trace:
+[05-Dec-2017 17:40:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:40:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:40:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:40:37 UTC] PHP Stack trace:
+[05-Dec-2017 17:40:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:40:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:40:37 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 18
+[05-Dec-2017 17:40:37 UTC] PHP Stack trace:
+[05-Dec-2017 17:40:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:40:37 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/controllers/login.php:18
+[05-Dec-2017 17:40:37 UTC] PHP Warning:  mysqli::close(): invalid object or resource mysqli
+ in /home/ubuntu/workspace/controllers/login.php on line 54
+[05-Dec-2017 17:40:37 UTC] PHP Stack trace:
+[05-Dec-2017 17:40:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:40:37 UTC] PHP   2. mysqli->close() /home/ubuntu/workspace/controllers/login.php:54
+[05-Dec-2017 17:42:38 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:42:38 UTC] PHP Stack trace:
+[05-Dec-2017 17:42:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:42:38 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:42:38 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:42:38 UTC] PHP Stack trace:
+[05-Dec-2017 17:42:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:42:38 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:42:38 UTC] PHP Fatal error:  Call to undefined method mysqli::mysql_query() in /home/ubuntu/workspace/controllers/login.php on line 18
+[05-Dec-2017 17:42:38 UTC] PHP Stack trace:
+[05-Dec-2017 17:42:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:44:44 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:44:44 UTC] PHP Stack trace:
+[05-Dec-2017 17:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:44:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:44:44 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:44:44 UTC] PHP Stack trace:
+[05-Dec-2017 17:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:44:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:44:44 UTC] PHP Warning:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/controllers/login.php on line 18
+[05-Dec-2017 17:44:44 UTC] PHP Stack trace:
+[05-Dec-2017 17:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:44:44 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/controllers/login.php:18
+[05-Dec-2017 17:44:44 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/controllers/login.php on line 18
+[05-Dec-2017 17:44:44 UTC] PHP Stack trace:
+[05-Dec-2017 17:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:44:44 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/controllers/login.php:18
+[05-Dec-2017 17:44:44 UTC] PHP Warning:  mysqli::close(): invalid object or resource mysqli
+ in /home/ubuntu/workspace/controllers/login.php on line 54
+[05-Dec-2017 17:44:44 UTC] PHP Stack trace:
+[05-Dec-2017 17:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:44:44 UTC] PHP   2. mysqli->close() /home/ubuntu/workspace/controllers/login.php:54
+[05-Dec-2017 17:48:22 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:48:22 UTC] PHP Stack trace:
+[05-Dec-2017 17:48:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:48:22 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:48:22 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:48:22 UTC] PHP Stack trace:
+[05-Dec-2017 17:48:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:48:22 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:51:34 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:51:35 UTC] PHP Stack trace:
+[05-Dec-2017 17:51:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:51:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:51:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:51:35 UTC] PHP Stack trace:
+[05-Dec-2017 17:51:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:51:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:54:14 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:54:14 UTC] PHP Stack trace:
+[05-Dec-2017 17:54:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:54:14 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:54:14 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:54:14 UTC] PHP Stack trace:
+[05-Dec-2017 17:54:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:54:14 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:54:14 UTC] PHP Fatal error:  Call to undefined method mysqli::mysql_query() in /home/ubuntu/workspace/controllers/login.php on line 49
+[05-Dec-2017 17:54:14 UTC] PHP Stack trace:
+[05-Dec-2017 17:54:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:55:55 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:55:55 UTC] PHP Stack trace:
+[05-Dec-2017 17:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:55:55 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:55:55 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 15
+[05-Dec-2017 17:55:55 UTC] PHP Stack trace:
+[05-Dec-2017 17:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:55:55 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:15
+[05-Dec-2017 17:56:57 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 16
+[05-Dec-2017 17:56:57 UTC] PHP Stack trace:
+[05-Dec-2017 17:56:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:56:57 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:16
+[05-Dec-2017 17:56:57 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 16
+[05-Dec-2017 17:56:57 UTC] PHP Stack trace:
+[05-Dec-2017 17:56:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 17:56:57 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:16
+[05-Dec-2017 17:56:57 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/controllers/login.php on line 16
+[05-Dec-2017 17:56:57 UTC] PHP Stack trace:
+[05-Dec-2017 17:56:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 20:41:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 29
+[05-Dec-2017 20:42:58 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/controllers/login.php on line 17
+[05-Dec-2017 20:42:58 UTC] PHP Stack trace:
+[05-Dec-2017 20:42:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 20:42:58 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:17
+[05-Dec-2017 20:42:58 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/controllers/login.php on line 17
+[05-Dec-2017 20:42:58 UTC] PHP Stack trace:
+[05-Dec-2017 20:42:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 20:42:58 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/controllers/login.php:17
+[05-Dec-2017 20:42:58 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 20:42:58 UTC] PHP Stack trace:
+[05-Dec-2017 20:42:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 20:42:58 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[05-Dec-2017 20:46:14 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controllers/login.php on line 21
+[05-Dec-2017 20:46:14 UTC] PHP Stack trace:
+[05-Dec-2017 20:46:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 20:46:14 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:21
+[05-Dec-2017 20:47:36 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 20:47:36 UTC] PHP Stack trace:
+[05-Dec-2017 20:47:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 20:47:36 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[05-Dec-2017 23:17:40 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:17:40 UTC] PHP Stack trace:
+[05-Dec-2017 23:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:17:40 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[05-Dec-2017 23:17:41 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:17:41 UTC] PHP Stack trace:
+[05-Dec-2017 23:17:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:17:41 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[05-Dec-2017 23:17:41 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:17:41 UTC] PHP Stack trace:
+[05-Dec-2017 23:17:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:17:41 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[05-Dec-2017 23:17:41 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:17:41 UTC] PHP Stack trace:
+[05-Dec-2017 23:17:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:17:41 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[05-Dec-2017 23:19:55 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:19:55 UTC] PHP Stack trace:
+[05-Dec-2017 23:19:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:24:17 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:24:17 UTC] PHP Stack trace:
+[05-Dec-2017 23:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:24:17 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:24:17 UTC] PHP Stack trace:
+[05-Dec-2017 23:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:24:18 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:24:18 UTC] PHP Stack trace:
+[05-Dec-2017 23:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:24:18 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:24:18 UTC] PHP Stack trace:
+[05-Dec-2017 23:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:24:18 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/controllers/login.php on line 19
+[05-Dec-2017 23:24:18 UTC] PHP Stack trace:
+[05-Dec-2017 23:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:25:41 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/controllers/login.php on line 23
+[05-Dec-2017 23:25:41 UTC] PHP Stack trace:
+[05-Dec-2017 23:25:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:25:41 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:23
+[05-Dec-2017 23:27:02 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/controllers/login.php on line 21
+[05-Dec-2017 23:27:02 UTC] PHP Stack trace:
+[05-Dec-2017 23:27:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:27:02 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:21
+[05-Dec-2017 23:28:09 UTC] PHP Fatal error:  Call to undefined function num_rows() in /home/ubuntu/workspace/controllers/login.php on line 21
+[05-Dec-2017 23:28:09 UTC] PHP Stack trace:
+[05-Dec-2017 23:28:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:28:40 UTC] PHP Fatal error:  Call to undefined function num_rows() in /home/ubuntu/workspace/controllers/login.php on line 21
+[05-Dec-2017 23:28:40 UTC] PHP Stack trace:
+[05-Dec-2017 23:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:29:54 UTC] PHP Fatal error:  Call to undefined function num_rows() in /home/ubuntu/workspace/controllers/login.php on line 21
+[05-Dec-2017 23:29:54 UTC] PHP Stack trace:
+[05-Dec-2017 23:29:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[05-Dec-2017 23:54:05 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[05-Dec-2017 23:54:05 UTC] PHP Stack trace:
+[05-Dec-2017 23:54:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[05-Dec-2017 23:54:05 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[05-Dec-2017 23:55:35 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[05-Dec-2017 23:55:35 UTC] PHP Stack trace:
+[05-Dec-2017 23:55:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[05-Dec-2017 23:55:35 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[05-Dec-2017 23:55:52 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[05-Dec-2017 23:55:52 UTC] PHP Stack trace:
+[05-Dec-2017 23:55:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[05-Dec-2017 23:55:52 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[05-Dec-2017 23:59:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[05-Dec-2017 23:59:29 UTC] PHP Stack trace:
+[05-Dec-2017 23:59:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[05-Dec-2017 23:59:29 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[06-Dec-2017 00:09:22 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[06-Dec-2017 00:09:22 UTC] PHP Stack trace:
+[06-Dec-2017 00:09:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[06-Dec-2017 00:09:22 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[06-Dec-2017 00:16:31 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[06-Dec-2017 00:16:31 UTC] PHP Stack trace:
+[06-Dec-2017 00:16:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[06-Dec-2017 00:16:31 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[06-Dec-2017 01:36:48 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[06-Dec-2017 01:36:48 UTC] PHP Stack trace:
+[06-Dec-2017 01:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[06-Dec-2017 01:36:48 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[06-Dec-2017 01:37:24 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[06-Dec-2017 01:37:24 UTC] PHP Stack trace:
+[06-Dec-2017 01:37:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[06-Dec-2017 01:37:24 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[06-Dec-2017 01:38:40 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[06-Dec-2017 01:38:40 UTC] PHP Stack trace:
+[06-Dec-2017 01:38:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[06-Dec-2017 01:38:40 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[06-Dec-2017 01:50:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:50:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:50:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:50:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:50:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:50:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:50:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:50:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:51:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 74
+[06-Dec-2017 01:52:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 73
+[06-Dec-2017 01:52:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 73
+[06-Dec-2017 01:52:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 73
+[06-Dec-2017 01:52:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/controllers/login.php on line 73
+[07-Dec-2017 23:24:18 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controllers/login.php on line 19
+[07-Dec-2017 23:24:18 UTC] PHP Stack trace:
+[07-Dec-2017 23:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[07-Dec-2017 23:24:18 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[07-Dec-2017 23:24:20 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controllers/login.php on line 19
+[07-Dec-2017 23:24:20 UTC] PHP Stack trace:
+[07-Dec-2017 23:24:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[07-Dec-2017 23:24:20 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[07-Dec-2017 23:24:20 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controllers/login.php on line 19
+[07-Dec-2017 23:24:20 UTC] PHP Stack trace:
+[07-Dec-2017 23:24:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[07-Dec-2017 23:24:20 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[07-Dec-2017 23:24:20 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/controllers/login.php on line 19
+[07-Dec-2017 23:24:20 UTC] PHP Stack trace:
+[07-Dec-2017 23:24:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/login.php:0
+[07-Dec-2017 23:24:20 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/controllers/login.php:19
+[08-Dec-2017 00:52:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 00:53:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 00:54:58 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 00:54:58 UTC] PHP Stack trace:
+[08-Dec-2017 00:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 00:54:58 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 00:55:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:00:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:05:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:06:17 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:06:17 UTC] PHP Stack trace:
+[08-Dec-2017 01:06:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:06:17 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:06:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:06:46 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:06:46 UTC] PHP Stack trace:
+[08-Dec-2017 01:06:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:06:46 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:06:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:06:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:06:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:06:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:06:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:06:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:06:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:07:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:07:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:07:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:08:20 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:08:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:08:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:08:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:08:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:09:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:10:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:10:49 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:10:49 UTC] PHP Stack trace:
+[08-Dec-2017 01:10:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:10:49 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:11:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/controllers/User_list.php on line 7
+[08-Dec-2017 01:13:22 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:13:22 UTC] PHP Stack trace:
+[08-Dec-2017 01:13:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:13:22 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:21:41 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:21:41 UTC] PHP Stack trace:
+[08-Dec-2017 01:21:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:21:41 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:22:03 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:22:03 UTC] PHP Stack trace:
+[08-Dec-2017 01:22:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:22:03 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:22:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/controllers/login.php on line 29
+[08-Dec-2017 01:22:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/controllers/login.php on line 29
+[08-Dec-2017 01:22:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/controllers/login.php on line 29
+[08-Dec-2017 01:23:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:23:28 UTC] PHP Stack trace:
+[08-Dec-2017 01:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:23:28 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:25:05 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:25:05 UTC] PHP Stack trace:
+[08-Dec-2017 01:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:25:05 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:30:34 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:30:34 UTC] PHP Stack trace:
+[08-Dec-2017 01:30:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:30:34 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:32:20 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[08-Dec-2017 01:32:20 UTC] PHP Stack trace:
+[08-Dec-2017 01:32:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[08-Dec-2017 01:32:20 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[08-Dec-2017 01:52:35 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/controllers/City_read.php on line 3
+[08-Dec-2017 01:52:35 UTC] PHP Stack trace:
+[08-Dec-2017 01:52:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/City_read.php:0
+[08-Dec-2017 01:52:35 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/controllers/City_read.php on line 3
+[08-Dec-2017 01:52:35 UTC] PHP Stack trace:
+[08-Dec-2017 01:52:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/City_read.php:0
+[08-Dec-2017 01:53:47 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/controllers/City_read.php on line 12
+[08-Dec-2017 01:53:47 UTC] PHP Stack trace:
+[08-Dec-2017 01:53:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/City_read.php:0
+[08-Dec-2017 01:53:59 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/controllers/City_read.php on line 12
+[08-Dec-2017 01:53:59 UTC] PHP Stack trace:
+[08-Dec-2017 01:53:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/City_read.php:0
+[08-Dec-2017 01:54:16 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/controllers/City_read.php on line 12
+[08-Dec-2017 01:54:16 UTC] PHP Stack trace:
+[08-Dec-2017 01:54:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/City_read.php:0
+[08-Dec-2017 01:54:53 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/controllers/City_read.php on line 12
+[08-Dec-2017 01:54:53 UTC] PHP Stack trace:
+[08-Dec-2017 01:54:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/City_read.php:0
+[09-Dec-2017 00:18:37 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[09-Dec-2017 00:18:37 UTC] PHP Stack trace:
+[09-Dec-2017 00:18:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[09-Dec-2017 00:18:37 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[09-Dec-2017 14:09:52 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[09-Dec-2017 14:09:52 UTC] PHP Stack trace:
+[09-Dec-2017 14:09:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[09-Dec-2017 14:09:52 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[09-Dec-2017 14:25:01 UTC] PHP Fatal error:  Call to undefined function test_input() in /home/ubuntu/workspace/controllers/User_signup.php on line 6
+[09-Dec-2017 14:25:01 UTC] PHP Stack trace:
+[09-Dec-2017 14:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/User_signup.php:0
+[09-Dec-2017 16:43:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[09-Dec-2017 16:43:18 UTC] PHP Stack trace:
+[09-Dec-2017 16:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[09-Dec-2017 16:43:18 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[16-Dec-2017 03:18:48 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[16-Dec-2017 03:18:48 UTC] PHP Stack trace:
+[16-Dec-2017 03:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[16-Dec-2017 03:18:48 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[16-Dec-2017 14:27:46 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[16-Dec-2017 14:27:46 UTC] PHP Stack trace:
+[16-Dec-2017 14:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[16-Dec-2017 14:27:46 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9

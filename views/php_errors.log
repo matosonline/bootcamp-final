@@ -1,0 +1,24 @@
+[02-Dec-2017 13:55:57 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/components/modal_ii.php on line 14
+[02-Dec-2017 13:55:57 UTC] PHP Stack trace:
+[02-Dec-2017 13:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/components/modal_ii.php:0
+[02-Dec-2017 13:55:57 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/components/modal_ii.php on line 14
+[02-Dec-2017 13:55:57 UTC] PHP Stack trace:
+[02-Dec-2017 13:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/components/modal_ii.php:0
+[02-Dec-2017 14:00:56 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/components/modal_ii.php on line 14
+[02-Dec-2017 14:00:56 UTC] PHP Stack trace:
+[02-Dec-2017 14:00:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/components/modal_ii.php:0
+[02-Dec-2017 14:00:56 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/components/modal_ii.php on line 14
+[02-Dec-2017 14:00:56 UTC] PHP Stack trace:
+[02-Dec-2017 14:00:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/components/modal_ii.php:0
+[02-Dec-2017 14:05:49 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/components/modal_ii.php on line 14
+[02-Dec-2017 14:05:49 UTC] PHP Stack trace:
+[02-Dec-2017 14:05:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/components/modal_ii.php:0
+[02-Dec-2017 14:05:49 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/components/modal_ii.php on line 14
+[02-Dec-2017 14:05:49 UTC] PHP Stack trace:
+[02-Dec-2017 14:05:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/components/modal_ii.php:0
+[02-Dec-2017 14:06:28 UTC] PHP Warning:  require_once(__ROOT__/controllers/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/views/components/modal_ii.php on line 14
+[02-Dec-2017 14:06:28 UTC] PHP Stack trace:
+[02-Dec-2017 14:06:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/components/modal_ii.php:0
+[02-Dec-2017 14:06:28 UTC] PHP Fatal error:  require_once(): Failed opening required '__ROOT__/controllers/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/views/components/modal_ii.php on line 14
+[02-Dec-2017 14:06:28 UTC] PHP Stack trace:
+[02-Dec-2017 14:06:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/components/modal_ii.php:0
