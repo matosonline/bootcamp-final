@@ -1,11 +1,74 @@
-nav{
-    margin-bottom: 20px;
+/*
+body {
+    background: blue;
 }
+*/
 
-#loggedUserEmail{
-    padding-right: 20px;
-}
 
-#modalSup {
-	z-index: 1080 !important;
-}
+
+/* Header section */
+/* Alternatives section */
+/* Candidatelist */
+/* Footer section */
+
+
+
+/* Header section */
+    header img {
+        margin-top: 80px;
+        width:100%;
+        max-height: 600px;
+        background-size: cover;
+        background-position: center center;
+    }
+
+/* Alternatives section */
+    .alternatives {
+        padding: 25px;
+    }
+    .alternatives img {
+        width: 300px;
+        height: 350px
+    }
+    
+/* Candidatelist */
+    #userList {
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+
+/* Footer section */
+    .footer {
+    	padding: 60px 0;
+        width: 100%;
+        background: #313131;
+        color: #fff;
+    }
+    .footer-title {
+    	position: relative;
+        color: #fff;
+    	font-size: 24px;
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #4e4e4e;
+    }
+    .footer-title:after {
+    	position: absolute;
+    	content: '';
+    	left: 0;
+    	bottom: 0;
+    	width: 30px;
+    	height: 4px;
+    	background: #3630ff;
+    }
+    .footer a:hover {
+        color: red;
+    }
+     .footer-bottom{
+    	width: 100%;
+    	padding: 25px 0;
+    	text-align: center;
+    	color: #fff;
+    	background: #222222;
+    }

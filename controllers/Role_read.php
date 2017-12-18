@@ -4,7 +4,7 @@
     session_start();
 
         //ALL USERS
-        $anotherQuery = "SELECT * FROM _Role;";
+        $anotherQuery = "SELECT * FROM _Role WHERE id=1;";
         
         $result = $conn->query($anotherQuery);
         

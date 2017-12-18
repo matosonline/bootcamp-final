@@ -3,8 +3,8 @@
         <div class="col">
 <?php
 
-    $views = array("home","portfolio","logout","signup","successful_signup","error_signup","users","user_profile");
-    $private_views = ["users","user_profile"];
+    $views = array("home","logout","signup","successful_signup","error_signup", "users");
+    $private_views = [];
     
     if( isset($_GET["page"]) && in_array($_GET["page"],$views) ){
         

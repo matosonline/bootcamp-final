@@ -52,7 +52,6 @@
                 "data" => "No results"
                 ];
         }
-    
     }
     
     $json_response = json_encode($data);

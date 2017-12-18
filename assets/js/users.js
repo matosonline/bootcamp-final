@@ -1,4 +1,4 @@
- var url = 'https://templating-rickmatos.c9users.io/controllers/User_list.php';
+ var url = 'https://holycrapteamproject-rickmatos.c9users.io//controllers/Candidate_list.php';
  
  
  $.ajax({
