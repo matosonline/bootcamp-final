@@ -762,3 +762,39 @@
 [21-Dec-2017 01:07:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
 [21-Dec-2017 01:07:57 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
 [21-Dec-2017 01:31:47 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/ubuntu/workspace/controllers/Question_list.php on line 15
+[21-Dec-2017 01:57:53 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[21-Dec-2017 01:57:53 UTC] PHP Stack trace:
+[21-Dec-2017 01:57:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[21-Dec-2017 01:57:53 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[21-Dec-2017 05:22:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/controllers/Question_list.php on line 5
+[21-Dec-2017 05:22:32 UTC] PHP Stack trace:
+[21-Dec-2017 05:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/Question_list.php:0
+[21-Dec-2017 05:22:32 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/controllers/Question_list.php:5
+[21-Dec-2017 05:22:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/controllers/Question_list.php on line 13
+[21-Dec-2017 05:22:32 UTC] PHP Stack trace:
+[21-Dec-2017 05:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/Question_list.php:0
+[21-Dec-2017 05:22:32 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/controllers/Question_list.php:13
+[21-Dec-2017 05:22:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/controllers/Question_list.php on line 22
+[21-Dec-2017 05:22:32 UTC] PHP Stack trace:
+[21-Dec-2017 05:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/Question_list.php:0
+[21-Dec-2017 05:22:32 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/controllers/Question_list.php:22
+[21-Dec-2017 05:23:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/controllers/Question_list.php on line 5
+[21-Dec-2017 05:23:07 UTC] PHP Stack trace:
+[21-Dec-2017 05:23:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/Question_list.php:0
+[21-Dec-2017 05:23:07 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/controllers/Question_list.php:5
+[21-Dec-2017 05:23:07 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/controllers/Question_list.php on line 13
+[21-Dec-2017 05:23:07 UTC] PHP Stack trace:
+[21-Dec-2017 05:23:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/Question_list.php:0
+[21-Dec-2017 05:23:07 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/controllers/Question_list.php:13
+[21-Dec-2017 05:23:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/controllers/Question_list.php on line 22
+[21-Dec-2017 05:23:07 UTC] PHP Stack trace:
+[21-Dec-2017 05:23:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/controllers/Question_list.php:0
+[21-Dec-2017 05:23:07 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/controllers/Question_list.php:22
+[21-Dec-2017 13:35:21 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[21-Dec-2017 13:35:21 UTC] PHP Stack trace:
+[21-Dec-2017 13:35:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[21-Dec-2017 13:35:21 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[21-Dec-2017 14:53:05 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[21-Dec-2017 14:53:05 UTC] PHP Stack trace:
+[21-Dec-2017 14:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[21-Dec-2017 14:53:05 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9

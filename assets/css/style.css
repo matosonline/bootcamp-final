@@ -57,42 +57,46 @@ body {
 
     #frontEnd { 
             background-color: #000000;
-            padding: 90px;
+            padding-left: 200px;
             color: #ff9999;
             border-top-style:solid;
             border-top-color: #ffff66;
             border-top-width: 10px;
-      
+            padding-top: 50px;
+            padding-bottom: 50px;
     }
+    
+    /*#feFacts{*/
+    /*    padding-top: 200px;*/
+        
+    /*}*/
     
     #backEnd { 
             background-color: #000000;
-            padding: 90px;
+            padding-left: 200px;
             color: #33cccc;
             border-top-style:solid;
             border-top-color: #ffff66;
             border-top-width: 10px;
+            padding-top: 50px;
+            padding-bottom: 50px;
     }
     
-
-/* Alternatives section */
-    .alternatives {
-            padding: 25px;
-    }
-    .alternatives img {
-            width: 300px;
-            height: 350px
-    }
 
 
 /* Contact */
 
     .contactUs img {
-            width:100%;
-            /*max-height: 600px;*/
-            background-size: cover;
-            background-position: center center;
+            margin-left: 150px;
+            padding: 50px;
     }
+    
+    .contactUs{
+            background-color: #ffff66;
+            max-height: 600px;
+    }
+    
+    
     .row no-gutters {
             width: 100%;
     }
@@ -145,14 +149,19 @@ body {
     }
 
 /*Adding New Question*/
-    #gushpanca {
-        padding: 20px;
-        margin-left: 400px;
-
-   }
+    #candidate {
+        margin-top: 150px;   }
    
    .buttons {
-       padding: 30px;
-        
-     
+        padding: 30px;
+        float: none;
    }
+   
+   #answer1 {
+       padding: 5px;
+   }
+   
+   #answer2 {
+       padding: 5px;
+   }
+  
