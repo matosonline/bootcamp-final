@@ -1,6 +1,6 @@
 
 //Sign Up
-var url = 'https://holycrapteamproject-rickmatos.c9users.io//controllers/User_signup.php';
+var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/User_signup.php';
 
 $(document).on('click','#btn-save',function(e) {
     var data = $("#signupForm").serialize();
@@ -11,8 +11,6 @@ $(document).on('click','#btn-save',function(e) {
         url: url,
         success: function(data){
             alert("New user added");
-
-            
         }
     });
 });

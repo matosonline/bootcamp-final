@@ -5,87 +5,151 @@ body {
 */
 
 
-
+/* General Style */
 /* Nav Section */
 /* Header section */
+/* Showcase section */
 /* Alternatives section */
 /* Candidatelist */
 /* Footer section */
+
+
 
 /* General Style */
     .btn-primary {
-        background-color: #E4E95C;
-        color: black;
+            background-color: #E4E95C;
+            color: black;
     }
     .btn-primary:hover {
-        background-color: #D1D143;
+            background-color: #D1D143;
     }
-
+    
+    body {
+            margin: 0;
+            padding: 0;
+    }
+    
+    .container-fluid {
+            padding-right:0;
+            padding-left:0;
+            margin-right:auto;
+            margin-left:auto
+ }
 
 
 /* Nav Section */
 
+
 /* Header section */
     header img {
-        margin-top: 80px;
-        width:100%;
-        max-height: 600px;
-        background-size: cover;
-        background-position: center center;
+            margin-top: 80px;
+            width:100%;
+            /*max-height: 600px;*/
+            background-size: cover;
+            background-position: center center;
+    }
+    .row no-gutters {
+            width: 100%;
     }
 
-    .col {
-        background-size: cover;
-        background-position: center center;
+
+/* Showcase section */
+
+    #frontEnd { 
+            background-color: #212121;
+            padding: 90px;
+            color: #ff9999;
+            border-top-style:solid;
+            border-top-color: #ffff66;
+            border-top-width: 10px;
+      
     }
+    
+    #backEnd { 
+            background-color: #212121;
+            padding: 90px;
+            color: #33cccc;
+            border-top-style:solid;
+            border-top-color: #ffff66;
+            border-top-width: 10px;
+    }
+    
 
 /* Alternatives section */
     .alternatives {
-        padding: 25px;
+            padding: 25px;
     }
     .alternatives img {
-        width: 300px;
-        height: 350px
+            width: 300px;
+            height: 350px
     }
+
+
+/* Contact */
+
+    .contactUs img {
+            width:100%;
+            /*max-height: 600px;*/
+            background-size: cover;
+            background-position: center center;
+    }
+    .row no-gutters {
+            width: 100%;
+    }
+   
     
 /* Candidatelist */
-    #userList {
-        margin-top: 100px;
-        margin-bottom: 25px;
-    }
+        #voteCards {
+            margin-top: 100px;
+            margin-bottom: 25px;
+        }
+        #voteCards img {
+            padding: 15px;
+        }
+
 
 /* Footer section */
     .footer {
-    	padding: 60px 0;
-        width: 100%;
-        background: #313131;
-        color: #fff;
+        	padding: 60px 0;
+            width: 100%;
+            background: #313131;
+            color: #fff;
     }
     .footer-title {
-    	position: relative;
-        color: #fff;
-    	font-size: 24px;
-        font-weight: 600;
-        margin-top: 5px;
-        margin-bottom: 20px;
-        border-bottom: 1px solid #4e4e4e;
+        	position: relative;
+            color: #fff;
+        	font-size: 24px;
+            font-weight: 600;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #4e4e4e;
     }
     .footer-title:after {
-    	position: absolute;
-    	content: '';
-    	left: 0;
-    	bottom: 0;
-    	width: 30px;
-    	height: 4px;
-    	background: #3630ff;
+        	position: absolute;
+        	content: '';
+        	left: 0;
+        	bottom: 0;
+        	width: 30px;
+        	height: 4px;
+        	background: #3630ff;
     }
     .footer a:hover {
-        color: red;
+            color: red;
     }
      .footer-bottom{
-    	width: 100%;
-    	padding: 25px 0;
-    	text-align: center;
-    	color: #fff;
-    	background: #222222;
+        	width: 100%;
+        	padding: 25px 0;
+        	text-align: center;
+        	color: #fff;
+        	background: #222222;
+    }
+
+/*Adding New Question*/
+    .newQuestion {
+            margin: 250px;
+    }
+    
+    .newQuestionBox {
+        margin: 15px;
+        padding: 25px;
     }

@@ -1,14 +1,15 @@
-<div class="container-fluid clearfix">
-    <div class="row">
-        <div class="col">
+
 <?php
 
-    $views = array("home","logout","signup","successful_signup","error_signup", "users");
-    $private_views = [];
+    $views = array("home","logout","signup","successful_signup","error_signup", "users", "candidate");
+    $voter_views = ["users"];
+    $admin_views = ["users", "candidate"];
     
     if( isset($_GET["page"]) && in_array($_GET["page"],$views) ){
         
-        if( !in_array($_GET["page"],$private_views) ){
+        if( !in_array($_GET["page"],$voter_views) ){ /* and if is a voter*/
+            require_once(__ROOT__.'/views/'.$_GET["page"].'.php');
+        }elseif( !in_array($_GET["page"],$admin_views) ){ /* and if an admin */
             require_once(__ROOT__.'/views/'.$_GET["page"].'.php');
         }else{
             if( isset($_SESSION["weird_session_name"]) ){
@@ -45,6 +46,3 @@
         
     }
 ?>
-        </div>
-    </div>
-</div>

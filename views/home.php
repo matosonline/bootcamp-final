@@ -1,44 +1,60 @@
 <?php
     
+
 ?>
 
 <!-- Header -->
-  <div class="row no-gutters">
-    <div class="col">
-      <header class="fvb text-white text-center">
-        <img src="/assets/imgs/maxresdefault.png">
-      </header>
-    </div>
-  </div>
-    <br>
-
-<!-- Alternantives -->
-    <section class="alternatives text-center bg-light">
-      <div class="container">
-        <h2 class="mb-5">TP Alternatives</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card mx-auto">
-              <div class="card-body">
-                <img src="/assets/imgs/tpalt_1.jpg"></img>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mx-auto">
-              <div class="card-body">
-                <img src="/assets/imgs/tpalt_2.jpg"></img>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mx-auto">
-              <div class="card-body">
-                <img src="/assets/imgs/tpalt_3.jpg"></img>
-              </div>
-            </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="row no-gutters">
+          <div class="col">
+            <header class="fvb text-white text-center">
+              <img src="/assets/imgs/FVB_Banner.png">
+            </header>
           </div>
         </div>
       </div>
-    </section>
-    <br>
+    </div>
+    
+
+<!-- Showcase --> 
+
+<!-- Front End Section -->
+  <div class="row" id="frontEnd">
+      <div class="col-12">
+          <div class="row">
+            <div class="col-3"><img src="/assets/imgs/AboutFENoBack.png"></div>
+          </div>
+          <div class="row">
+            <div class="col-9"></div>
+          </div>
+      </div>
+  </div>
+  
+
+
+<!-- Back End Section -->
+  <div class="row" id="backEnd">
+      <div class="col-12">
+          <div class="row">
+            <div class="col-9"></div>
+          </div>
+          <div class="row">
+            <div class="col-3"><img src="/assets/imgs/AboutBENoBack.png"></div>
+          </div>
+      </div>
+  </div>
+  
+
+
+<!-- Contact -->
+  <div class="row contactUs">
+      <div class="col-12 mx-auto">
+          <div>
+            <img src="/assets/imgs/ContactUs_Banner.png">
+          </div>
+      </div>
+  </div>
+      
+</div> <!-- END CONTAINER-FLUID -->

@@ -17,7 +17,7 @@
             
             //Validated email & password against "database"
             if($result->num_rows > 0){
-                header('Location: /?=users');
+                
                 $row = $result->fetch_assoc();
                 
                 //Created the session (if user valid)
@@ -27,11 +27,10 @@
                                                             "username"  => $row["Email"],
                                                             "role_id"   => $row["Role_Id"],
                                                             "firstname" => $row["First_Name"],
-                                                            "lastname" => $row["Last_Name"]
+                                                            "lastname"  => $row["Last_Name"]
                                                         ];
                 }
 
-                //Created the response message
                 $data = [
                     "code" => 200, 
                     "message" => "success",
@@ -44,8 +43,6 @@
                     "message" => "error",
                     "data" => "Invalid information"
                     ];
-                //END - Created the response message
-                
             }
             
         }else{
