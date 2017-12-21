@@ -28,10 +28,10 @@
             <br>
             <div class="row">
                 <div class="col-9 mx-auto">
-                <h2>Additional Quetions</h2>
-                    <table class="table" id="questionList">
+                <h2>Additional Questions</h2>
+                    <ul id="questionList">
                         
-                    </table>
+                    </ul>
                 </div>
             </div>
         </div>

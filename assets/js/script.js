@@ -8,8 +8,9 @@ $(document).ready(function(){
     }else{
         $("#loginModalButton").hide();
     }
+
     
-var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Role_read.php';
+ var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Role_read.php';
 
  $.ajax({
             type        : 'GET', // define the type of HTTP verb we want to use (POST for our form)
@@ -17,7 +18,7 @@ var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Role_rea
             dataType    : 'json' // what type of data do we expect back from the server
         }).done(function(data){
             
-            console.log(data);
+            //console.log(data);
             //END - Configure and Execute ajax call.
             
         if(data.code === 200){
@@ -57,13 +58,14 @@ $("#loginButton").click(function (){
         $.ajax({
             type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
             url         : url, // the url where we want to POST
-            data        : formData, // our data object
-            dataType    : 'json' // what type of data do we expect back from the server
-        }).done(function(response){
-            console.log(response);
+            data        : formData // our data object
+            //dataType    : 'json' // what type of data do we expect back from the server
+        }).done(function(data){
+            //console.log(data);
             //END - Configure and Execute ajax call.
             
-
+            response = JSON.parse(data);
+            
             if(response.code === 200){
                 $("#loginModal").modal('hide');
                 $("#loginModalButton").hide();

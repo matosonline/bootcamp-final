@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" ;>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,14 +27,14 @@
     <form class="form-inline my-2 my-lg-0">
       <!-- Modal from bootstrap / Button trigger modal -->
 
-      <button id="loginModalButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
-      Login
-      </button>
+        <button id="loginModalButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+          Login
+        </button>
 
       <!-- Modal from bootstrap / Button trigger modal -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <span class="text-white bg-dark" id="loggedUserEmail" >
+          <span id="loggedUserEmail">
           <?php
             if( isset($_SESSION["weird_session_name"]) ){
                 echo $_SESSION["weird_session_name"]["firstname"];
@@ -46,7 +46,6 @@
           </span>
         </li>
       </ul>
-      
       <a id="logoutButton" class="btn btn-primary" href="/views/logout.php">
         Logout
       </a>
@@ -54,4 +53,3 @@
     </form>
   </div>
 </nav>
-

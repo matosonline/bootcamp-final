@@ -145,11 +145,14 @@ body {
     }
 
 /*Adding New Question*/
-    .newQuestion {
-            margin: 250px;
-    }
-    
-    .newQuestionBox {
-        margin: 15px;
-        padding: 25px;
-    }
+    #gushpanca {
+        padding: 20px;
+        margin-left: 400px;
+
+   }
+   
+   .buttons {
+       padding: 30px;
+        
+     
+   }
