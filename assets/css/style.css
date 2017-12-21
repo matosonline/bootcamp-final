@@ -56,7 +56,7 @@ body {
 /* Showcase section */
 
     #frontEnd { 
-            background-color: #212121;
+            background-color: #000000;
             padding: 90px;
             color: #ff9999;
             border-top-style:solid;
@@ -66,7 +66,7 @@ body {
     }
     
     #backEnd { 
-            background-color: #212121;
+            background-color: #000000;
             padding: 90px;
             color: #33cccc;
             border-top-style:solid;
