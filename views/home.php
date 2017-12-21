@@ -27,7 +27,9 @@
             <div class="col-3"><img src="/assets/imgs/AboutFENoBack.png"></div>
           </div>
           <div class="row">
-            <div class="col-9"></div>
+            <div class="col-9">
+                <p>test</p>
+            </div>
           </div>
       </div>
   </div>
@@ -38,7 +40,9 @@
   <div class="row" id="backEnd">
       <div class="col-12">
           <div class="row">
-            <div class="col-9"></div>
+            <div class="col-9">
+                <p>test</p>
+            </div>
           </div>
           <div class="row">
             <div class="col-3"><img src="/assets/imgs/AboutBENoBack.png"></div>
