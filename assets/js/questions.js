@@ -9,7 +9,7 @@ $(document).ready( function(){
         $.ajax({
             data: data,
             type: "POST",
-            url: url,
+            url: 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Question_list.php?current_user=true',
             success: function(data){
                 console.log("so far so good");
             }   

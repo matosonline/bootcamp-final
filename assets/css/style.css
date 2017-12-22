@@ -18,6 +18,200 @@
     .btn-primary:hover {
         background-color: #D1D143;
     }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Love Ya Like A Sister', cursive;
+        
+    }
+    .container-fluid {
+        padding-right:0;
+        padding-left:0;
+        margin-right:auto;
+        margin-left:auto
+    }
+
+/* Nav Section */
+    .nav-link {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+/* Header section */
+    header img {
+        margin-top: 80px;
+        width:100%;
+        /*max-height: 600px;*/
+        background-size: cover;
+        background-position: center center;
+    }
+    .row no-gutters {
+        width: 100%;
+    }
+
+
+/* Showcase section */
+    #frontEnd { 
+        background-color: #000000;
+        padding-left: 200px;
+        color: #ff9999;
+        border-top-style:solid;
+        border-top-color: #ffff66;
+        border-top-width: 10px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    #feText{
+        padding-top: 20px;
+    }
+    #beText{
+        padding-top: 20px;
+    }
+    #backEnd { 
+        background-color: #000000;
+        padding-left: 200px;
+        color: #33cccc;
+        border-top-style:solid;
+        border-top-color: #ffff66;
+        border-top-width: 10px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+/* Contact */
+    #cUStext{
+       
+        padding-left: 200px;
+        
+        /*border-top-style:solid;*/
+        
+        border-top-width: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contactUs img {
+        margin-left: 150px;
+        padding: 100px;
+        max-width:125%;
+        height:auto;
+    }
+    .contactUs{
+        background-color: #ffff66;
+        max-height: 600px;
+        
+    }
+    .row no-gutters {
+        width: 100%;
+    }
+    
+    form-group
+    
+    #ourNames{
+        padding-left: 60px;
+    }
+
+/* Candidatelist */
+    #voteCards {
+        margin-top: 150px;
+        margin-bottom: 25px;
+       
+    }
+    #voteCards img {
+        padding: 15px;
+        background-color: black;
+    }
+    
+
+
+/* Footer section */
+    .footer {
+    	padding: 60px 0;
+        width: 100%;
+        background: #313131;
+        color: #fff;
+    }
+    .footer-title {
+    	position: relative;
+        color: #fff;
+    	font-size: 24px;
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #4e4e4e;
+    }
+    .footer-title:after {
+    	position: absolute;
+    	content: '';
+    	left: 0;
+    	bottom: 0;
+    	width: 30px;
+    	height: 4px;
+    	background: #3630ff;
+    }
+    .footer a:hover {
+        color: red;
+    }
+    .footer-bottom{
+    	width: 100%;
+    	padding: 25px 0;
+    	text-align: center;
+    	color: #fff;
+    	background: #222222;
+    }
+
+/* Adding New Question */
+    #candidate {
+        margin-top: 150px;
+    }
+    .buttons {
+        padding: 30px;
+        float: none;
+        width: 150px;
+        text-align: center;
+        margin:0 auto;
+    }
+    .btn btn-primary{
+       float: right;
+       background-color: #E4E95C;
+    }
+    
+    .btn:focus {
+  outline: none; !important;
+}
+
+    #answer1 {
+       padding: 5px;
+    }
+    #answer2 {
+       padding: 5px;
+    }
+  
+  
+  #bleh{
+      background-color: black;
+      text: center;
+  }
+/* General Style */
+/* Nav Section */
+/* Header section */
+/* Showcase section */
+/* Contact */
+/* Candidatelist */
+/* Footer section */
+/* Adding New Question */
+
+
+
+/* General Style */
+    .btn-primary {
+        background-color: #E4E95C;
+       
+    }
+    .btn-primary:hover {
+        background-color: #D1D143;
+    }
     
     body {
         margin: 0;

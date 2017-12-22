@@ -822,3 +822,7 @@
 [22-Dec-2017 01:20:52 UTC] PHP Stack trace:
 [22-Dec-2017 01:20:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
 [22-Dec-2017 01:20:52 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[22-Dec-2017 01:47:02 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[22-Dec-2017 01:47:02 UTC] PHP Stack trace:
+[22-Dec-2017 01:47:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[22-Dec-2017 01:47:02 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9

@@ -25,6 +25,31 @@
                 "data" => "No results"
                 ];
         }
+    }else{
+        if( isset($_POST["current_user"]) && $_POST["current_user"] && isset($_SESSION["weird_session_name"]["username"]) ){
+        
+        //$singleUserQuery = ;
+        
+        $result = $conn->query($singleUserQuery);
+        
+        if( $result->num_rows > 0){
+            $temp = [];
+            while($currentUserRow =$result->fetch_assoc()){
+                array_push($temp, $currentUserRow);
+            }
+            $data = [
+                "code" => 200, 
+                "message" => "success",
+                "data" => $temp
+                ];
+        }else{
+            $data = [
+                "code" => 800, 
+                "message" => "error",
+                "data" => "No results"
+                ];
+        }
+    }
     }
     
     $json_response = json_encode($data);

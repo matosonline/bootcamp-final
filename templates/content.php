@@ -1,9 +1,9 @@
 
 <?php
 
-    $views = array("home","logout","signup","successful_signup","error_signup", "stats", "admin candidate", "results");
-    $voter_views = ["users"];
-    $admin_views = ["users", "candidate"];
+    $views = array("home","logout","signup","successful_signup","error_signup", "candidate", "questions");
+    $voter_views = ["questions"];
+    $admin_views = ["questions", "candidate"];
     
     if( isset($_GET["page"]) && in_array($_GET["page"],$views) ){
         
@@ -43,6 +43,5 @@
         }else{
             array_push($_SESSION['pages_visited'], $page);
         }
-        
     }
 ?>
