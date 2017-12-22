@@ -1,7 +1,7 @@
 
 <?php
 
-    $views = array("home","logout","signup","successful_signup","error_signup", "questions", "candidate");
+    $views = array("home","logout","signup","successful_signup","error_signup", "questions", "candidate", "results");
     $voter_views = ["users"];
     $admin_views = ["users", "candidate"];
     

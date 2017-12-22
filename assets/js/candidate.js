@@ -16,7 +16,7 @@ $(document).ready(function(e) {
                 //and print result in span id:show
                 $('#show').html(result);
             }
-        })
+        });
     });
 });
 

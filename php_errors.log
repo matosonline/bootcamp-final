@@ -798,3 +798,19 @@
 [21-Dec-2017 14:53:05 UTC] PHP Stack trace:
 [21-Dec-2017 14:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
 [21-Dec-2017 14:53:05 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[21-Dec-2017 23:04:26 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[21-Dec-2017 23:04:26 UTC] PHP Stack trace:
+[21-Dec-2017 23:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[21-Dec-2017 23:04:26 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[21-Dec-2017 23:55:14 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[21-Dec-2017 23:55:14 UTC] PHP Stack trace:
+[21-Dec-2017 23:55:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[21-Dec-2017 23:55:14 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[22-Dec-2017 00:42:35 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[22-Dec-2017 00:42:35 UTC] PHP Stack trace:
+[22-Dec-2017 00:42:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[22-Dec-2017 00:42:35 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9
+[22-Dec-2017 00:43:57 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/views/logout.php on line 9
+[22-Dec-2017 00:43:57 UTC] PHP Stack trace:
+[22-Dec-2017 00:43:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/logout.php:0
+[22-Dec-2017 00:43:57 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/views/logout.php:9

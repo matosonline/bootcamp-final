@@ -4,7 +4,7 @@
     
     if( isset($_GET["current_user"]) && $_GET["current_user"] && isset($_SESSION["weird_session_name"]["username"]) ){
         
-        $singleUserQuery = "SELECT DISTINCT a.Question, (SELECT Answer FROM _Vote WHERE id = (SELECT min(id) FROM _Vote) AND Q_id = Q_id) as Answer1, (SELECT Answer FROM _Vote WHERE id = (SELECT max(id) FROM _Vote) AND Q_id = Q_id) as Answer2 FROM _Question a INNER JOIN _Vote b ON b.Q_id = a.id";
+        $singleUserQuery = "SELECT DISTINCT a.id as Q_id, a.Question as Question, (SELECT id FROM _Vote WHERE Q_id = a.id ORDER BY id ASC LIMIT 0, 1) as Aid1, (SELECT Answer FROM _Vote WHERE Q_id = a.id ORDER BY id ASC LIMIT 0, 1) as Answer1, (SELECT id FROM _Vote WHERE Q_id = a.id ORDER BY id DESC LIMIT 0, 1) as Aid2, (SELECT Answer FROM _Vote WHERE Q_id = a.id ORDER BY id DESC LIMIT 0, 1) as Answer2 FROM _Question a";
         
         $result = $conn->query($singleUserQuery);
         

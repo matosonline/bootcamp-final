@@ -4,9 +4,7 @@
 <div class="container-fluid">
     <div class="row" id="candidate">
         <div class="col-sm-12 col-lg-6 mx-auto">
-            
-            <h1 class="text-center">Additional Questions</h1>
-            
+            <h1 class="text-center">Additional Questions</h1><br>
             <p id="alert" style="display:none" class="alert alert-success text-center"><span id="show"></span> </p>
 
                 <form>
@@ -14,13 +12,13 @@
                         <label  class="col-sm-4 control-label" for="question">What's on your mind?</label>
                         <div class="col">
                             <input type="text" class="form-control" id="question" placeholder="Type Here"/>
-                        </div>
+                        </div><br>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-4 control-label" for="answer1" >Answer 1</label>
                         <div class="col">
                             <input type="text" class="form-control" id="answer1" placeholder="Type Here"/>
-                        </div>
+                        </div><br>
                         <label class="col-sm-4 control-label" for="answer2" >Answer 2</label>
                         <div class="col">
                             <input type="text" class="form-control" id="answer2" placeholder="Type Here"/>

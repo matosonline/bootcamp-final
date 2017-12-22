@@ -8,9 +8,9 @@
                     <div class="card" style="width: 20rem;">
                       <img class="card-img-top" src="/assets/imgs/FERoll.png" alt="Card image cap">
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary" id="btnFront">Vote for "FRONT ROLL"!</a>
+                        <h4 class="card-title">FRONT END</h4>
+                        <p class="card-text">HTML, CSS, and Javascript programming</p>
+                        <a href="#" class="btn btn-primary ans-btn" id="btnFront">Vote now "FRONT END"!</a>
                       </div>
                     </div>
                 </div>
@@ -18,22 +18,33 @@
                     <div class="card" style="width: 20rem;">
                       <img class="card-img-top" src="/assets/imgs/BERoll.png" alt="Card image cap">
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary" id="btnBack">Vote for "BACK ROLL"!</a>
+                        <h4 class="card-title">BACK END</h4>
+                        <p class="card-text">PHP, Ruby, Python, Java, and .Net <br> <br>
+                        </p>
+                        <a href="#" class="btn btn-primary ans-btn" id="btnBack">Vote now "BACK END"!</a>
                       </div>
                     </div>
                 </div>
             </div>
             <br>
             <div class="row">
-                <div class="col-9 mx-auto">
-                <h2>Additional Questions</h2>
-                    <ul id="questionList">
-                        <li>
-                            
-                        </li>
-                    </ul>
+                <div class="col-12 mx-auto">
+                    <h2>Additional Questions</h2>
+                    <table class="table mb-5" id="questionList">
+                        
+                        <tr>
+                            <th>
+                                Question
+                            </th>
+                            <th>
+                                Option One
+                            </th>
+                            <th>
+                                Option Two
+                            </th>
+                        </tr>
+                    
+                    </table>
                 </div>
             </div>
         </div>
