@@ -7,4 +7,8 @@
             <h1>Questions answered by the voters</h1>
         </div>    
     </div>    
-</div>
+</div>      
+        <!---Insert table with answers of voters---!>
+        
+        
+        

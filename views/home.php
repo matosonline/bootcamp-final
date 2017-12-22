@@ -55,7 +55,7 @@
           <div class="col-9">
               <h3 id="cUStext" class="text-left">
               Roses are red, carnations are pink.<br>If you wipe without toilet paper, your fingers will stink!</h3>
-              <a class="text-center" href="https://holycrapteamproject-rickmatos.c9users.io/?page=404"><p>Ricardo</p>   <p>Ziv</p>   <p>Aymee</p> <p>Samantha</p>   <p>Sandy</p></a>
+              <a class="text-center" href="https://holycrapteamproject-rickmatos.c9users.io/?page=404" style="color:#000000"><p><u>Ricardo<br>Ziv<br>Aymee<br>Samantha<br>Sandy</u></p></a>
           </div>
           </div>
         

@@ -18,6 +18,7 @@
     .btn-primary:hover {
         background-color: #D1D143;
     }
+    
     body {
         margin: 0;
         padding: 0;
@@ -33,7 +34,10 @@
     }
 
 /* Nav Section */
-
+    .nav-link {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
 
 
 /* Header section */
@@ -171,7 +175,9 @@
     }
     .btn btn-primary{
        float: right;
+       background-color: #E4E95C;
     }
+
     #answer1 {
        padding: 5px;
     }
@@ -179,3 +185,8 @@
        padding: 5px;
     }
   
+  
+  #bleh{
+      background-color: black;
+      text: center;
+  }
