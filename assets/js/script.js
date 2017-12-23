@@ -9,7 +9,6 @@ $(document).ready(function(){
         $("#loginModalButton").hide();
     }
 
-    
  var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Role_read.php';
 
  $.ajax({
@@ -17,24 +16,16 @@ $(document).ready(function(){
             url         :  url, // the url where we want to POST
             dataType    : 'json' // what type of data do we expect back from the server
         }).done(function(data){
-            
-            //console.log(data);
             //END - Configure and Execute ajax call.
-            
         if(data.code === 200){
-
             $.each(data.data, function(index,row){
                 $("#Role_Id").append('<option value="' + row["id"] + '">' + row["Role_Name"] + '</option>');
             });
-
         }else{
             $("#loginErrorMessageInvalid").show();
         }
     });
-    
-    
 });
-//END - Set the initial state of the website
 
 //click event for the login button (the one inside the modal).
 $("#loginButton").click(function (){
@@ -44,9 +35,6 @@ $("#loginButton").click(function (){
     
     if(loginEmail.length > 0 && loginPassword.length > 0){
         //END - Validated the information inside the form's inputs.
-        
-        //Configure and Execute ajax call.
-        //$("#loginErrorMessage").hide();
         
         var formData = {
             'email_info': loginEmail,
@@ -71,12 +59,10 @@ $("#loginButton").click(function (){
                 $("#loginModalButton").hide();
                 $("#logoutButton").show();
                 $("#loggedUserEmail").html(response.data);
-                
             }else{
                 $("#loginErrorMessageInvalid").show();
             }
         });
-        
     }else{
         $("#loginErrorMessage").show();
     }

@@ -25,33 +25,22 @@
                 "data" => "No results"
                 ];
         }
-    }else{
-        if( isset($_POST["current_user"]) && $_POST["current_user"] && isset($_SESSION["weird_session_name"]["username"]) ){
+    }else{      
         
-        //$singleUserQuery = ;
-        
-        $result = $conn->query($singleUserQuery);
-        
-        if( $result->num_rows > 0){
-            $temp = [];
-            while($currentUserRow =$result->fetch_assoc()){
-                array_push($temp, $currentUserRow);
-            }
-            $data = [
-                "code" => 200, 
-                "message" => "success",
-                "data" => $temp
-                ];
-        }else{
-            $data = [
-                "code" => 800, 
-                "message" => "error",
-                "data" => "No results"
-                ];
-        }
-    }
-    }
-    
+       if ($_SERVER["REQUEST_METHOD"] == "POST") {
+           $uid   = $_SESSION["weird_session_name"]["userid"];
+           $aid   = $_POST["data"]["aid"];
+           $qid   = $_POST["data"]["qid"];
+
+           $sql    = "INSERT INTO _UQV (U_id, Q_id, V_id) VALUES ('$uid', '$qid', '$aid');";
+
+           $query  = mysqli_multi_query($conn,$sql);
+                if($query) {
+                    echo $query;
+                }
+       }
+   }
+
     $json_response = json_encode($data);
     $conn->close();
     echo $json_response;

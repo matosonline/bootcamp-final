@@ -8,10 +8,10 @@
         //Validated the information inside the POST variable (email & password)
         if(isset($_POST["email_info"]) && isset($_POST["password_info"])){
             
-            $username = $_POST["email_info"];
-            $password = $_POST["password_info"];
+            $username   = $_POST["email_info"];
+            $password   = $_POST["password_info"];
             
-            $newQuery = "SELECT Email, First_Name, Last_Name, Role_Id FROM _Users WHERE _Users.Email = '$username' AND _Users.password = '$password';";
+            $newQuery = "SELECT id, Email, First_Name, Last_Name, Role_Id FROM _Users WHERE _Users.Email = '$username' AND _Users.password = '$password';";
             
             $result = $conn->query($newQuery);
             
@@ -27,10 +27,10 @@
                                                             "username"  => $row["Email"],
                                                             "role_id"   => $row["Role_Id"],
                                                             "firstname" => $row["First_Name"],
-                                                            "lastname"  => $row["Last_Name"]
+                                                            "lastname"  => $row["Last_Name"],
+                                                            "userid"    => $row["id"]
                                                         ];
                 }
-
                 $data = [
                     "code" => 200, 
                     "message" => "success",

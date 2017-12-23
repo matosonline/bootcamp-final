@@ -10,7 +10,7 @@
                       <div class="card-body">
                         <h4 class="card-title">FRONT END</h4>
                         <p class="card-text">HTML, CSS, and Javascript programming</p>
-                        <a href="#" class="btn btn-primary ans-btn" id="btnFront">Vote now "FRONT END"!</a>
+                        <a href="#" class="btn btn-primary ans-btn" id="btnFront" data-aid="1">Vote now "FRONT END"!</a>
                       </div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                         <h4 class="card-title">BACK END</h4>
                         <p class="card-text">PHP, Ruby, Python, Java, and .Net <br> <br>
                         </p>
-                        <a href="#" class="btn btn-primary ans-btn" id="btnBack">Vote now "BACK END"!</a>
+                        <a href="#" class="btn btn-primary ans-btn" id="btnBack" data-aid="2">Vote now "BACK END"!</a>
                       </div>
                     </div>
                 </div>

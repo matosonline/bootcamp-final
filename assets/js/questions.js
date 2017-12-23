@@ -1,17 +1,22 @@
+
+
+
 $(document).ready( function(){
     $( document ).on('click','.ans-btn', function(event) {
         var data = []; 
         data['qid'] = $(this).attr("data-qid");
         data['aid'] = $(this).attr("data-aid");
-        
+
         console.log(data);
         
         $.ajax({
             data: data,
             type: "POST",
-            url: 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Question_list.php?current_user=true',
+            url: 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Question_list.php',
             success: function(data){
-                console.log("so far so good");
+                
+            console.log("so far so good");
+                
             }   
         });
     });
@@ -31,7 +36,7 @@ $(document).ready( function(){
         if(data.code === 200){
             $.each(data.data, function(index,row){
                 
-                $("#questionList").append('<tr><td>'+row.Question+'</td><td><button type="button" class="btn btn-primary ans-btn" data-qid="'+row.Q_id+'" data-aid="'+row.Aid1+'">Vote for: '+row.Answer1+'</button></td> <td><button type="button" class="btn btn-primary ans-btn" data-qid="'+row.Q_id+'" data-aid="'+row.Aid2+'">Vote for: '+row.Answer2+'</button></td></tr>');
+                $("#questionList").append('<tr><td>'+row.Question+'</td><td><button type="button" class="btn btn-primary ans-btn" data-qid="'+row.Q_id+'" data-aid="'+row.Aid1+'" >Vote for: '+row.Answer1+'</button></td> <td><button type="button" class="btn btn-primary ans-btn" data-qid="'+row.Q_id+'" data-aid="'+row.Aid2+'">Vote for: '+row.Answer2+'</button></td></tr>');
                 
             });
             
