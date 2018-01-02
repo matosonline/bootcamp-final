@@ -20,10 +20,7 @@
         <a class="nav-link" href="#contactUs">Contact Us <span class="sr-only">(current)</span></a>
       </li>
      <!-- Pages to be viewed just by candidates --> 
-      <li class="nav-item active">
-        <a class="nav-link" href="#results">Stats <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
+           <li class="nav-item active">
         <a class="nav-link" href="/?page=candidate">Admin Candidate <span class="sr-only">(current)</span></a>
       </li>
     </ul>

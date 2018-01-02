@@ -27,14 +27,15 @@
         }
     }else{      
         
-       if ($_SERVER["REQUEST_METHOD"] == "POST") {
-           $uid   = $_SESSION["weird_session_name"]["userid"];
-           $aid   = $_POST["data"]["aid"];
-           $qid   = $_POST["data"]["qid"];
-
-           $sql    = "INSERT INTO _UQV (U_id, Q_id, V_id) VALUES ('$uid', '$qid', '$aid');";
-
-           $query  = mysqli_multi_query($conn,$sql);
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $uid   = $_SESSION["weird_session_name"]["userid"];
+            $aid   = $_POST["data"]["data-aid"];
+            $qid   = $_POST["data"]["data-qid"];
+            
+            $sql    = "INSERT INTO _UQV (U_id, Q_id, V_id) VALUES ('$uid', '$qid', '$aid');";
+            
+            $query  = mysqli_multi_query($conn,$sql);
+    
                 if($query) {
                     echo $query;
                 }
