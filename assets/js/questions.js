@@ -12,7 +12,7 @@ $(document).ready( function(){
         $.ajax({
             data: data,
             type: "POST",
-            url: 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Question_list.php',
+            url: '../controllers/Question_list.php',
             success: function(data){
                 
             console.log("so far so good");
@@ -22,7 +22,7 @@ $(document).ready( function(){
     });
 });
 
- var qlurl = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Question_list.php?current_user=true';
+ var qlurl = '../controllers/Question_list.php?current_user=true';
 
     $.ajax({
             type        : 'GET', // define the type of HTTP verb we want to use (POST for our form)

@@ -1,4 +1,4 @@
- var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Question_list.php?current_user=true';
+ var url = '../controllers/Question_list.php?current_user=true';
  
  
  $.ajax({

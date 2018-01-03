@@ -1,4 +1,4 @@
- var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/candidate.php?current_user=true';
+ var url = '../controllers/candidate.php?current_user=true';
 
 $(document).ready(function(e) {
     $('#btn-qst').click(function() {

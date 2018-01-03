@@ -9,7 +9,7 @@ $(document).ready(function(){
         $("#loginModalButton").hide();
     }
 
- var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/Role_read.php';
+ var url = '../controllers/Role_read.php';
 
  $.ajax({
             type        : 'GET', // define the type of HTTP verb we want to use (POST for our form)
@@ -41,7 +41,7 @@ $("#loginButton").click(function (){
             'password_info': loginPassword
         };
         
-        var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/login.php';
+        var url = '../controllers/login.php';
         
         $.ajax({
             type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
@@ -73,7 +73,7 @@ $("#loginButton").click(function (){
 
 $(document).on('click','#btn-save',function(e) {
     var data = $("#signupForm").serialize();
-    var url = 'https://holycrapteamproject-rickmatos.c9users.io/controllers/User_signup.php';
+    var url = '../controllers/User_signup.php';
     $.ajax({
         data: data,
         type: "POST",
